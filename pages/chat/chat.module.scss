@@ -1,0 +1,30 @@
+.chat_grid_container {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    padding: 1em;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    grid-template-columns: 200px 1fr;
+
+    .chat_presence {
+        position: relative;
+        width: 100%;
+        gap: 30px;
+        display: flex;
+        padding: 1em;
+        border-radius: 4px;
+        background-color: transparent !important;
+        border: 1px solid white !important;
+        flex-direction: column !important;
+    }
+
+    .quiz_container_section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        border: 0.01px solid rgba(255, 255, 255, 0.08);
+    }
+}

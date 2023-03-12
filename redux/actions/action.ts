@@ -1,0 +1,9 @@
+export const TOGGLE_SIDEBAR = "TOGGLE_SIDEBAR";
+
+export const SHOW_MODAL_BOX = "SHOW_MODAL_BOX";
+
+export const IS_EDITING = "IS_EDITING";
+
+export const IS_CREATING_ACCOUNT = "IS_CREATING_ACCOUNT";
+
+export const DELETE_ACCOUNT = "DELETE_ACCOUNT";
